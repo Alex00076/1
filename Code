@@ -1,0 +1,18 @@
+namespace P_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float h;
+
+            Console.WriteLine("Введите площадь: ");
+            float s = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine("Введите объем: ");
+            float v = Convert.ToSingle(Console.ReadLine());
+
+            h = s / v;
+            Console.WriteLine("Высота равна "+ h);
+        }
+    }
+}
